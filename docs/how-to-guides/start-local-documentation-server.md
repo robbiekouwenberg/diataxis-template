@@ -1,0 +1,7 @@
+To edit and view locally, run:
+
+```powershell
+Run.ps1
+```
+
+Then visit [localhost:8000](http://localhost:8000)

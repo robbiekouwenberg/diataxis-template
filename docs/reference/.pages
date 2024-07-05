@@ -1,0 +1,8 @@
+order: asc
+sort_type: natural
+
+nav:
+  - architecture
+  - decisions
+  - faq
+  - ...

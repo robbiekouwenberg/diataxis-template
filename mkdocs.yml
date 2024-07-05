@@ -1,0 +1,53 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: Diataxis template documentation
+copyright: Copyright &copy; 2020 - 2024 Robbie Kouwenberg
+
+repo_url: https://github.com/robbiekouwenberg/diataxis-template.git
+
+dev_addr: localhost
+
+# by default mkdocs.yml and docs/ are included in the watched directories, add others accordingly here
+watch:
+  - README.md
+  - LICENSE.md
+
+plugins:
+  - search
+  - awesome-pages
+  - pagetree
+
+theme:
+  name: material
+  palette:
+    primary: black
+    secondary: yellow
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.indexes
+    - navigation.sections 
+    - navigation.expand 
+    - search.highlight
+    - search.share
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.snippets:
+      check_paths: true
+  - def_list
+  - pymdownx.tasklist:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true

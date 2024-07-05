@@ -1,0 +1,6 @@
+order: asc
+sort_type: natural
+
+nav:
+  - Home: index.md
+  - ...

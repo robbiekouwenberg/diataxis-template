@@ -1,0 +1,12 @@
+docker build -t diataxis .
+
+docker run `
+    --rm `
+    --interactive `
+    --tty `
+    --publish 8000:8000 `
+    --volume $PSScriptRoot/docs:/docs `
+    --mount "type=bind,source=$PSScriptRoot/mkdocs.yml,target=/mkdocs.yml" `
+    --mount "type=bind,source=$PSScriptRoot/README.md,target=/README.md" `
+    --mount "type=bind,source=$PSScriptRoot/LICENSE.md,target=/LICENSE.md" `
+    diataxis

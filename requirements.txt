@@ -1,0 +1,2 @@
+mkdocs-pagetree-plugin
+mkdocs-awesome-pages-plugin

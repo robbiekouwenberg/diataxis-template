@@ -1,0 +1,3 @@
+# Architecture
+
+{{ pagetree(subtree) }}
