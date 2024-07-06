@@ -5,8 +5,6 @@ copyright: Copyright &copy; 2020 - 2024 Robbie Kouwenberg
 
 repo_url: https://github.com/robbiekouwenberg/diataxis-template.git
 
-dev_addr: localhost
-
 # by default mkdocs.yml and docs/ are included in the watched directories, add others accordingly here
 watch:
   - README.md
