@@ -12,8 +12,8 @@ There are 4 main parts:
 To update the documentation on any of the sections just add a new markdown file to the designated subfolder below
 ```
 ├───concepts
-├───getting-started
-├───how-to-guides
+├───tutorials
+├───how-to
 │   └───troubleshooting
 └───reference
     ├───architecture

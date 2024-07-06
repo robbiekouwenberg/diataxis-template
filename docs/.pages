@@ -3,4 +3,8 @@ sort_type: natural
 
 nav:
   - Home: index.md
+  - concepts
+  - tutorials
+  - how-to
+  - reference
   - ...

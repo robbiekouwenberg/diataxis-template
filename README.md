@@ -3,7 +3,9 @@
 This project can be used as a template for repository documentation.
 It's goal is two-fold:
 1) provide usage examples on how a diataxis based documentation could work including features from mkdocs that allow lighting up the content.
-2) provide a drop-in documentation framework anyone can just copy/paste into their repository (or)
+2) provide a drop-in documentation framework anyone can just intall into their repository
+
+To see a working example, see [diataxis-template](https://diataxis-template.readthedocs.io/en/latest/).
 
 Before use, you need docker working
 
@@ -22,13 +24,16 @@ You can edit/add/remove the md files. (Updating mkdocs.yml file accordingly)
 
 - [x] Basic diataxis structure
 - [x] MkDocs basic config
-- [?] read the docs
-- [] Basic templates
+- [x] Convention based folder structure using awesome-pages
+- [x] read the docs
+- [X] Basic templates
 - [] Distribution scripts
 
 ## Get Started
 
-- Check out the [Getting Started](getting-started/index.md) section for tutorials
+- Check out the [Tutorials](/tutorials) section for all tutorials
+- Using the diataxis templates repo:
+  - 
 
 ## FAQ
 

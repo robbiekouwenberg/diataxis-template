@@ -1,4 +1,4 @@
-# Render file from repository
+# Load repository file into documentation
 
 Sometimes you need to render a file which is part of the repository.
 

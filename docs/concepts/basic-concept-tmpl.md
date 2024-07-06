@@ -1,0 +1,21 @@
+# Concept template
+# {Concept Title}
+
+{Brief introduction of the concept, including its origin and general purpose.}
+
+## Purpose
+
+- {The primary purpose and its relevance in its field.}
+
+## Common Usage
+
+- {Usage 1}: {Brief description.}
+- {Usage 2}: {Brief description.}
+
+## Benefits
+
+- {Key benefit and why it's preferred in certain scenarios.}
+
+## Conclusion
+
+{Summary of its importance and role in its respective field.}
