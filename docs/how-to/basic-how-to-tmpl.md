@@ -1,4 +1,4 @@
-# How to template
+# Basic How to template
 # How to {Task Name, use Verb Noun syntax. e.g. How to Open a can}
 
 This guide will walk you through the steps required to {brief description of the task} in a code repository.
