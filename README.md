@@ -1,6 +1,9 @@
 **[Features](#features) • [Get Started](#get-started)**
 
-This project can be used as a template for IT project documentation.
+This project can be used as a template for repository documentation.
+It's goal is two-fold:
+1) provide usage examples on how a diataxis based documentation could work including features from mkdocs that allow lighting up the content.
+2) provide a drop-in documentation framework anyone can just copy/paste into their repository (or)
 
 Before use, you need docker working
 
@@ -19,7 +22,9 @@ You can edit/add/remove the md files. (Updating mkdocs.yml file accordingly)
 
 - [x] Basic diataxis structure
 - [x] MkDocs basic config
-- [x] Basic templates
+- [?] read the docs
+- [] Basic templates
+- [] Distribution scripts
 
 ## Get Started
 
