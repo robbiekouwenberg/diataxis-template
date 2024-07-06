@@ -27,7 +27,7 @@ You can edit/add/remove the md files. (Updating mkdocs.yml file accordingly)
 - [x] Convention based folder structure using awesome-pages
 - [x] read the docs
 - [X] Basic templates
-- [] Distribution scripts
+- [ ] Distribution scripts
 
 ## Get Started
 
