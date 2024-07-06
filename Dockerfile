@@ -4,7 +4,7 @@ FROM squidfunk/mkdocs-material as base
 # Set the working directory in the container
 WORKDIR /
 
-COPY requirements.txt .
+COPY docs/requirements.txt .
 
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
