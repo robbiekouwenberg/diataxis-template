@@ -29,8 +29,6 @@ See [faq](reference/faq.md) for a list of known issues.
 
 ## Contributing
 
-Any contributions you make are greatly appreciated.
-
 Please see [contributing guide](reference/contributing.md) for more information.
 
 ## License
