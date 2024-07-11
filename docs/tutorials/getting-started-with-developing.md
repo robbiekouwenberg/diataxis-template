@@ -4,7 +4,7 @@ Before use, you need docker working
 
     git clone https://github.com/robbiekouwenberg/diataxis-template.git
     cd diataxis-template
-    Run.ps1
+    RunDocsServer.ps1
 
 Navigate with your web browser to:
   
