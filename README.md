@@ -20,7 +20,7 @@ Pro-tip: make sure you add the link to the working example so you can off-load l
 
 ## Get Started
 
-- See [Tutorials](/tutorials) section for all tutorials
+- See [Tutorials](/tutorials/) section for all tutorials
 - See [Getting Started](/tutorials/getting-started-with-developing) for a tutorial on getting started with development
 
 ## FAQ
