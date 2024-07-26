@@ -1,4 +1,4 @@
-docker build -t diataxis .
+docker build -t diataxis -f DockerfileDocsServer .
 
 docker run `
     --rm `
@@ -9,4 +9,5 @@ docker run `
     --mount "type=bind,source=$PSScriptRoot/mkdocs.yml,target=/mkdocs.yml" `
     --mount "type=bind,source=$PSScriptRoot/README.md,target=/README.md" `
     --mount "type=bind,source=$PSScriptRoot/LICENSE.md,target=/LICENSE.md" `
+    --mount "type=bind,source=$PSScriptRoot/docs/requirements.txt,target=/requirements.txt" `
     diataxis
