@@ -13,7 +13,7 @@ The file needs to be available to the docker image running, so you will need to 
 # Render the file
 
 ```
---8<-- "resources/RunDocsServer.ps1"
+--8<-- "README.md"
 ```
 
 

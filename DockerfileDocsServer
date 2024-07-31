@@ -5,7 +5,6 @@ FROM squidfunk/mkdocs-material as base
 WORKDIR /
 
 COPY docs/requirements.txt .
-COPY RunDocsServer.ps1 ./resources/RunDocsServer.ps1
 
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
