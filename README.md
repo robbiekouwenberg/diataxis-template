@@ -16,12 +16,13 @@ Pro-tip: make sure you add the link to the working example so you can off-load l
 - [x] Convention based folder structure using awesome-pages
 - [x] read the docs
 - [X] Basic templates
+- [X] Printing of the entire site
 - [ ] Distribution scripts
 
 ## Get Started
 
+- See [Getting Started](tutorials/getting-started) for a tutorial on getting started with development
 - See [Tutorials](tutorials/) section for all tutorials
-- See [Getting Started](tutorials/getting-started-with-developing) for a tutorial on getting started with development
 
 ## FAQ
 
@@ -37,7 +38,7 @@ See [license page](reference/license.md) or `LICENSE.md` file for more informati
 
 ## Acknowledgements
 
-Diataxis templates was based on https://github.com/adolfomaltez/diataxis
+Diataxis templates was based on [adolfomaltez/diataxis](https://github.com/adolfomaltez/diataxis)
 
 References:
 

@@ -14,9 +14,31 @@ plugins:
   - search
   - awesome-pages
   - pagetree
+  - print-site:
+      print_page_title: Diataxis template documentation
+      add_table_of_contents: false
+      enumerate_headings: false
+      enumerate_figures: false
+      add_cover_page: false
+      exclude:
+        - index.md
+        - concepts/index.md
+        #- concepts/working-with-documentation.md
+        - how-to/index.md
+        #- how-to/start-local-documentation-server.md
+        - how-to/troubleshooting/index.md
+        - reference/index.md
+        #- reference/diataxis-documentation.md
+        - reference/decisions/index.md
+        - reference/faq/index.md
+        - reference/license.md
+        - tutorials/index.md
+        #- tutorials/getting-started.md
+        #- tutorials/starting-doc-server.md
 
 theme:
   name: material
+  custom_dir: docs/overrides
   palette:
     primary: black
     secondary: yellow
@@ -28,6 +50,7 @@ theme:
     - navigation.expand 
     - search.highlight
     - search.share
+    - content.code.copy
 
 markdown_extensions:
   - pymdownx.emoji:

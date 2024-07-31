@@ -10,4 +10,5 @@ docker run `
     --mount "type=bind,source=$PSScriptRoot/README.md,target=/README.md" `
     --mount "type=bind,source=$PSScriptRoot/LICENSE.md,target=/LICENSE.md" `
     --mount "type=bind,source=$PSScriptRoot/docs/requirements.txt,target=/requirements.txt" `
+    --mount "type=bind,source=$PSScriptRoot/RunDocsServer.ps1,target=/resources/RunDocsServer.ps1" `
     diataxis
