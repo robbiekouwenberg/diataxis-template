@@ -1,4 +1,4 @@
-## Working with diataxis documentation
+# Working with diataxis documentation
 
 To update the documentation on any of the sections just add a new markdown file to the designated subfolder below
 ```
